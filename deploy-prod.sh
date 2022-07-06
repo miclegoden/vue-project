@@ -1,0 +1,1 @@
+npm run build && rsync -ar --rsh='ssh -p 65002' --progress ./dist/* u110981514@31.220.110.101:/home/u110981514/domains/burgerzworld.com/public_html/play

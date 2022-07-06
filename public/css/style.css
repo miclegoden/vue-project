@@ -1,0 +1,227 @@
+body {
+    background: url("/images/bg.jpg") fixed center center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    font-family: JockeyOne !important;
+    transition: all 0.3s ease;
+}
+
+ul li a,
+li {
+    color: #fff !important;
+}
+input:focus{
+    outline: non e;
+    box-shadow: none;
+}
+button:focus{
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+a {
+    text-decoration: none;
+}
+.navbar-toggler:focus{
+    box-shadow: none !important;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffffff; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #77b059; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #5c923f; 
+}
+.text-right {
+    text-align: right !important;
+}
+
+.ual-auth-icon {
+    height: 40px;
+}
+
+.navbar-nav li a {
+    /* font-size: 20px; */
+    font-weight: bold;
+}
+
+.navbar-text ul li {
+    margin-left: 20px;
+    /* font-weight: bold !important; */
+    font-size: 17px;
+}
+
+/*.right-bar .large-card {
+    width: 182px !important;
+}*/
+
+.modal-body .large-card .img_wrapper {
+    height: 134px !important;
+}
+
+.large-card {
+    display: inline-block;
+    text-align: left;
+    position: relative;
+    background: rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+    margin: 0px;
+    border-radius: 10px;
+    max-width: 100%;
+    max-height: 100%;
+    width: 200px;
+    height: auto;
+    border: 1px solid #fff !important;
+    overflow: hidden;
+}
+.card_section{
+    width: 840px;
+    margin: 0 auto;
+}
+
+.large-card .img_wrapper {
+    height: 205px;
+}
+
+.large-card .img-position {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.large-card .single-pic {
+    padding: 15px 15px 0;
+}
+
+.large-card .img_wrapper .img-prev {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.large-card .img_wrapper .img-prev img {
+    position: absolute;
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.large-card .content-wrapper {
+    padding: 0px 10px;
+    border-top: 1px solid #fff !important;
+}
+
+.large-card .content-wrapper .title {
+    font-size: 15px;
+    color: #fff;
+    font-weight: bold;
+    padding-top: 2px;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+.large-card .content-wrapper .asset-price,
+.large-card .content-wrapper button {
+    color: #fff;
+    font-size: 14px;
+}
+
+.large-card .btn {
+    text-transform: uppercase;
+}
+
+.btn-block:hover {
+    color: black !important;
+    font-weight: bold;
+}
+
+.dropdown-item {
+    color: #000 !important;
+}
+/*.card_section{
+    position: relative;
+    z-index: -1;
+}*/
+.craft_btn a{
+    padding: 10px 40px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff !important;
+    display: inline-block;
+}
+@media (max-width: 992px) {
+    /*.card_section{
+        position: relative;
+        z-index: -1;
+    }*/
+    .card_section {
+        width: 100%;
+    }
+    .right-bar{
+        border-left: none !important;
+        top: 0px !important;
+    }
+    .left-bar{
+        border-right: none !important;
+        top: 0px !important;
+    }
+    .left-bar, .right-bar{
+        box-shadow: none !important;
+        width: 100% !important;
+        background: rgba(0,0,0,0.9);;
+        top: 0;
+        width: 100%;
+        z-index: 9999;
+    }
+    .rightSidebar .navbar-toggler{
+        float: right;
+        right: 10px;
+    }
+    .leftSidebar .navbar-toggler{
+        left: 10px;
+    }
+    .leftSidebar .navbar-toggler, .rightSidebar .navbar-toggler{
+        position: fixed;
+        top: 80px;
+        background: rgb(0 0 0 / 55%);
+    }
+    .closeSidebar{
+        color: #fff;
+        position: relative;
+        right: 15px;
+        top: 6px;
+        font-size: 25px;
+        float: right;
+    }
+}
+@media (max-width: 430px) {
+    .textCenter {
+        text-align: center !important;
+    }
+    .imgBlock {
+        height: 200px;
+    }
+
+   .login-wrapper .login{
+        width: 100% ;
+        margin: 0;
+        border-radius: 0;
+        height: 100vh;
+    }
+}
